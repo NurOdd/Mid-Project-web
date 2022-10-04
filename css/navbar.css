@@ -13,15 +13,24 @@ a{
     color: #6B708D;
 }
 
+#linkBlue{
+    color: #2674d4;
+}
+
+ul :hover{
+    color: #072AC8;
+}
+
 #logoCircle {
     width: 100px;
 }
 
 .menuList{ 
-width: 400px;
+width: 300px;
 }
 
 .menuList ul {
+    font-weight: 700px;
     width: 100%;
     display: flex;
 align-items:center;
