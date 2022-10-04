@@ -1,12 +1,9 @@
 .navbar{
- 
  display: flex;
  justify-content: space-between;
  align-items: center;
  padding: 20px;
- margin-top: 70px;
- margin-left: 1rem;
- margin-right: 1rem;
+ margin: 70px, 1rem, 0px, 1rem;
  font-size: 20px;
  color: #6B708D;
 }
@@ -19,13 +16,17 @@ a{
 #logoCircle {
     width: 100px;
 }
-/*revisar esto
-.menuList{ 
-padding-left: 20px;
-margin-left: 20px;
-margin-right: 20px;
-}*/
 
+.menuList{ 
+width: 400px;
+}
+
+.menuList ul {
+    width: 100%;
+    display: flex;
+align-items:center;
+justify-content: space-between;
+}
 
 .btnContactUs{
   background-color: #072AC8;
