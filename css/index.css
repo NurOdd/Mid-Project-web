@@ -1,9 +1,10 @@
 
 @import "./navbar.css";
 @import "./ProjectSeccion.css";
+@import "./testimonialSection.css";
 @import "./CTASection.css";
 @import "./footer.css";
-@import "./testimonialSection.css";
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
@@ -14,6 +15,19 @@ margin: 0px;
 padding: 0px;
 background-color:#f2f4fc ;
 color: #292e47;
+}
 
-
+//TODO - revisar fonts 
+/*!!!!Revisar fonts, no me les detecta*/
+h1{
+    font: 60px;
+    font-weight: bold;
+}
+h2{
+    font: 50px;
+    font-weight: bold;
+}
+h3{
+    font: 40px;
+    font-weight: bold;
 }
