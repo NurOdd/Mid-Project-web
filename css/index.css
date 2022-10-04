@@ -1,9 +1,15 @@
 
 @import "./navbar.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 body{
+font-family: Arial, Helvetica, sans-serif;
 width: 100%;
 margin: 0px;
 padding: 0px;
-    background-color:#f2f4fc ;
+background-color:#f2f4fc ;
+color: #292e47;
+
+
 }
