@@ -1,0 +1,9 @@
+
+@import "./navbar.css";
+
+body{
+width: 100%;
+margin: 0px;
+padding: 0px;
+    background-color:#f2f4fc ;
+}
