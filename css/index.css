@@ -5,6 +5,7 @@
 @import "./CTASection.css";
 @import "./footer.css";
 
+/*revisar pq no s'està important correctament la familia*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
@@ -15,10 +16,11 @@ margin: 0px;
 padding: 0px;
 background-color:#f2f4fc ;
 color: #292e47;
+line-height: 20px;
 }
 
 
-/*!!!!Revisar fonts, no me les detecta*/
+
 h1{
     font: 60px;
     font-weight: bold;
@@ -29,11 +31,15 @@ h1{
 h2{
     font: 50px;
     font-weight: bold;
-    color: 292e47;
+    color: #292e47;
 }
 
 h3{
     font: 40px;
     font-weight: bold;
-    color: 292e47;
+    color: #292e47;
+}
+
+p{
+    font: 17px;
 }

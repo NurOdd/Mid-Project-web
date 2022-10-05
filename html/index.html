@@ -142,19 +142,19 @@
 </div>
 
 <!--CTASection / CTASection.css-->
-
+<!-- parece que cuando pones una dirección te sale un mensaje (revision de si faltan elementos para q sea mail, "gracias se ha recibido tu submit", "oh, algo ha ido mal!")-->
 <div class="CTASection">
     <div>
-        <h3>Do you have any questions?</h3>
+        <h1>Do you have any questions?</h1>
         <p>Let us help you!</p>
-        <div>
-            <div >
+        <div class = "ctaForm">
+            <div class="emailForm">
                 <form action="submitEmail">
-                    <img src="../project-assets/newsletter/icon/mail.svg" alt="mailIcon">
-                    <input type="email" placeholder="Enter your email">
+                    <img src="../project-assets/newsletter/icon/mail.svg" alt="mailIcon" id="mailIcon">
+                    <input type="email" placeholder="Enter your email" id='inputEmail'>
                 </form>
             </div>
-            <button class="btnContactUs">Subscribe</button>
+            <button class="btnSubscribe">Subscribe</button>
         </div>
     </div>
 </div>
@@ -162,25 +162,23 @@
 
 <!--Footer / footer.css-->
 
-<footer>
+<footer class="footer">
     <div>
-        <div>
+        <div class="footerDirection">
             <img src="../project-assets/logos/circle.svg" alt="logoCircle" id="logoCircle">
-            <p>2972 Westheimer Rd. Santa Ana,  </p>
-            <p>Illinois 85486</p>
+            <p>2972 Westheimer Rd. Santa Ana, <br>Illinois 85486 </p>
+            
         </div>
-        <div>
+        <div class="footerLinks">
             <div>
-                <ul>Team</ul>
-                <ul>Press</ul>
-            </div>
-            <div>
-                <ul>Services</ul>
-                <ul>Projects</ul>
-            </div>
-            <div>
+                <ul>Team</ul> 
+                <ul>Services</ul>    
                 <ul>About Us</ul>
-                <ul>Privacy Policy</ul>
+            </div>
+            <div>
+                <ul>Press</ul>
+                <ul>Projects</ul>
+                 <ul>Privacy Policy</ul>
             </div>
         </div>
     </div>
