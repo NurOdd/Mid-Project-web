@@ -1,0 +1,60 @@
+
+.serviceSection {
+    margin-top: 200px;
+    padding: 0px 30px 0px 30px;
+}
+
+.serviceSection h2{
+    margin: 20px 0px 10px 0px;
+    font-size: 40px;
+}
+
+.serviceList{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.serviceCard {
+    background-color: #fff;
+    width:340px ;
+    margin: auto;
+}
+
+/* meter el circulo al tamaño de la imagen de */
+.iconContainer{
+    margin: 40px;
+   border-radius: 50%;
+   background-color:#ecf7ff;
+   width: 70px;
+   height: 70px;
+   align-items: center;
+}
+
+/*hi ha d'haver alguna manera de fer que el icon y el background vagin iguals*/
+.imgIcon{
+padding: 15px;
+}
+
+
+.serviceCardText h4 {
+    margin: 30px 30px 20px 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.serviceCardText p {
+    margin: 0px 30px 10px 30px;
+    color: #292e47;
+    font-size: 17px;
+
+}
+
+.serviceLink{
+    margin: 30px;
+    color: #072AC8;
+    font-size: 17px;
+    font-weight: 500;
+}
