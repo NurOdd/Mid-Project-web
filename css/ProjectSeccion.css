@@ -1,7 +1,49 @@
+.projectSeccion{
+    margin-top: 200px;
+    padding: 0px 30px 0px 30px;
 
+}
 
+h2{
+    margin: 20px 0px 10px 0px;
+    font-size: 40px;
+}
+
+.projectList {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/* no em detecta bé els margins del height  */
+.cardProject {
+    background-color: #fff;
+    width:300px ;
+    margin: auto;
+}
+
+/*mirar com fer-ho pq la imatge no es deformi*/
 .projectImage{
+    height: 240px;
+    width: 100%; 
+}
 
-    margin: 20px;
-    width: 400px;
+.projectTitle {
+    margin: 30px 30px 20px 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.projectTypology {
+    margin: 0px 30px 10px 30px;
+    color: #292e47;
+}
+
+.projectLink{
+    margin: 30px;
+    color: #072AC8;
+    font-size: 17px;
+    font-weight: 500;
 }
