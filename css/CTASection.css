@@ -1,6 +1,5 @@
 .CTASection{
 margin-top: 60px;
-padding: 30px, 0px, 30px, 0px;
 background-color: #FFC600;
 display: flex;
 justify-content: center;
@@ -19,7 +18,7 @@ width: 100%;
 
 .CTASection div h1 {
     font-size: 45px;
-    margin: 20px,0px, 20px, 0px;
+    margin: 20px 0px  20px 0px;
     color: #292E47;
 }
 
@@ -30,7 +29,7 @@ width: 100%;
 }
 
 .ctaForm{
-    margin: 50px, 0px, 15px, 0px;
+    
     display: flex;
     justify-content: row;
     align-items: center;
@@ -45,7 +44,7 @@ height: 80px;
 }
 
 .emailForm form {
-    padding: 8px,12px,8px,70px;
+    
     background-color: #fff;
 width: 300px;
 height: 80px;   
@@ -70,7 +69,7 @@ height: 80px;
 
 .btnSubscribe{
     margin: 20px;
-    padding: 15px, 60px,15px, 60px ;
+    padding: 15px 60px 15px 60px ;
     background-color: #072AC8;
     border-color: #072AC8;
     color: #fff;

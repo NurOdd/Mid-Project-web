@@ -4,7 +4,6 @@
     padding: 0px, 30px, 100px, 30px;
     font-size: 18px;
     font-weight: 500;
-    text
     color: #6b7076;
 }
 
@@ -24,35 +23,10 @@ flex-direction: column;
 }
 
 
-/*necesito més bottom/top marge entre div i div + alineae rl text a la esquerre*/
+/*necesito més bottom/top marge entre div i div + alinear el text a l'esquerre*/
 .footerLinks {
 display: flex;
 flex-direction: column;
 color: #072AC8;
 }
 
-
-
-/*<footer>
-    <div>
-        <div>
-            <img src="../project-assets/logos/circle.svg" alt="logoCircle" id="logoCircle">
-            <p>2972 Westheimer Rd. Santa Ana,  </p>
-            <p>Illinois 85486</p>
-        </div>
-        <div>
-            <div>
-                <ul>Team</ul>
-                <ul>Press</ul>
-            </div>
-            <div>
-                <ul>Services</ul>
-                <ul>Projects</ul>
-            </div>
-            <div>
-                <ul>About Us</ul>
-                <ul>Privacy Policy</ul>
-            </div>
-        </div>
-    </div>
-</footer>*/

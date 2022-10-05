@@ -1,0 +1,11 @@
+.clientsImages {
+    margin-top: 130px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clientsImages img{
+    width: 130px;
+}
