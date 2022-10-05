@@ -8,7 +8,7 @@ width: 100%;
 
 }
 
-.CTASection div {
+.CTASection div{
 
     display: flex;
     flex-direction: column;
@@ -28,10 +28,10 @@ width: 100%;
     text-align: center;
 }
 
-.ctaForm{
-    
+/**/
+.ctaForm{ 
     display: flex;
-    justify-content: row;
+ flex-direction: row;
     align-items: center;
 }
 
@@ -39,11 +39,9 @@ width: 100%;
 position: relative;
 width: 300px;
 height: 80px;
-
-
 }
 
-.emailForm form {
+.emailForm form{
     
     background-color: #fff;
 width: 300px;
@@ -83,31 +81,8 @@ height: 80px;
     text-align: center;
   }
   
-  .btnSubscribe :hover{
+  .btnSubscribe:hover{
    background-color: #292E47;
    border-color: #292E47;
   }
 
-
-/*
-imput amb padding left (tant gran com el div)
-icon = posició absoluta
-div de tot = relatiu
- posicionar icon a on vull 
-*/
-
-/*<div class="CTASection">
-    <div>
-        <h3>Do you have any questions?</h3>
-        <p>Let us help you!</p>
-        <div>
-            <div >
-                <form action="submitEmail">
-                    <img src="../project-assets/newsletter/icon/mail.svg" alt="mailIcon">
-                    <input type="email" placeholder="Enter your email">
-                </form>
-            </div>
-            <button class="btnContactUs">Subscribe</button>
-        </div>
-    </div>
-</div>*/

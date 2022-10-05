@@ -94,22 +94,25 @@
 <!--testimonialSection/testimonialSection-->
 
 <div class="testimonialSection">
-    <img src="../project-assets/testimonial-section/orbit.png" alt="orbit" id="orbit">
-    <div id='memojis'>
-        <img src="../project-assets/testimonial-section/memoji-1.png" alt="memoji-1">
-        <img src="../project-assets/testimonial-section/memoji-2.png" alt="memoji-2">
-        <img src="../project-assets/testimonial-section/memoji-3.png" alt="memoji-3">
-        <img src="../project-assets/testimonial-section/memoji-4.png" alt="memoji-4">
-    </div>
-    <div id="clientTestimony"><!--Se puede hacer como un formulario para automatizar con JS: testimony, clientPhoto, clientName, ClientCompany, tambien podriamos incluir una serie de "flechas" para ir pasando de Testimonio1 a testimonio2 etc-->
+ 
+    <div class="clientTestimony"> <!--Se puede hacer como un formulario para automatizar con JS: testimony, clientPhoto, clientName, ClientCompany, tambien podriamos incluir una serie de "flechas" para ir pasando de Testimonio1 a testimonio2 etc-->
         <h3>Hear What Our Clients Have to Say</h3>
-        <p id="Testimony">“Circle helped us through every stage of our startup. We really enjoyed working with you.”</p>
-        <div id="clientInformation">
-            <img src="../project-assets/testimonial-section/profile.png" alt="clientPhoto" id="clientPhoto">
-            <p id="clientName">Kristin Watson</p>
-            <p id="clientCompany">Booking.com</p>
+        <p class="testimony">“Circle helped us through every stage of our startup.<br> We really enjoyed working with you.”</p>
+        <div class="client">
+            <div id="photoFrame">
+                <img src="../project-assets/testimonial-section/profile.png" alt="clientPhoto" id="clientPhoto">
+            </div>
+            <div class="clientInformation">
+                <p class="clientName">Kristin Watson</p>
+                <p class="clientCompany">Booking.com</p>
+            </div>
         </div>
-
+     <div class='memojis'>
+        <img id=memoji1 src="../project-assets/testimonial-section/memoji-1.png" alt="memoji-1">
+        <img id=memoji2 src="../project-assets/testimonial-section/memoji-2.png" alt="memoji-2">
+        <img id=memoji3 src="../project-assets/testimonial-section/memoji-3.png" alt="memoji-3">
+        <img id=memoji4 src="../project-assets/testimonial-section/memoji-4.png" alt="memoji-4">
+     </div>
     </div>
 </div>
 
@@ -165,7 +168,9 @@
                     <input type="email" placeholder="Enter your email" id='inputEmail'>
                 </form>
             </div>
-            <button class="btnSubscribe">Subscribe</button>
+            <div>
+                <button class="btnSubscribe">Subscribe</button>
+            </div>
         </div>
     </div>
 </div>
@@ -180,18 +185,14 @@
             <p>2972 Westheimer Rd. Santa Ana, <br>Illinois 85486 </p>
             
         </div>
-        <div class="footerLinks">
-            <div>
-                <ul>Team</ul> 
-                <ul>Services</ul>    
-                <ul>About Us</ul>
-            </div>
-            <div>
-                <ul>Press</ul>
-                <ul>Projects</ul>
-                 <ul>Privacy Policy</ul>
-            </div>
-        </div>
+        <ul class="footerLinks">
+                <li>Team</li>
+                <li>Services</li>
+                <li>About Us</li>
+                <li>Press</li>
+                <li>Projects</li>
+                <li>Privacy Policy</li>
+        </ul>
     </div>
 </footer>
 

@@ -21,23 +21,20 @@
     background-color: #fff;
     width:340px ;
     margin: auto;
+    padding-bottom: 30px;
 }
 
-/* meter el circulo al tamaño de la imagen de */
+
 .iconContainer{
     margin: 40px;
    border-radius: 50%;
    background-color:#ecf7ff;
    width: 70px;
    height: 70px;
+   display: flex;
+   justify-content: center;
    align-items: center;
 }
-
-/*hi ha d'haver alguna manera de fer que el icon y el background vagin iguals*/
-.imgIcon{
-padding: 15px;
-}
-
 
 .serviceCardText h4 {
     margin: 30px 30px 20px 30px;

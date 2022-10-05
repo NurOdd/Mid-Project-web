@@ -15,18 +15,21 @@
 
 }
 
-/*necesito donar-li més interline entre una linea y altre + més bottom marge entre logo + p */
 .footerDirection{
 width: 500px;
 display: flex;
 flex-direction: column;
+line-height: 30px;
 }
 
 
 /*necesito més bottom/top marge entre div i div + alinear el text a l'esquerre*/
 .footerLinks {
-display: flex;
-flex-direction: column;
 color: #072AC8;
+display: grid;
+grid-template-columns: 150px 150px 150px;
+list-style: none;
+
 }
+
 
