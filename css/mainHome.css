@@ -14,7 +14,19 @@
 
 .heroText{
     width: 45%;
+}
 
+.heroText h1{
+    color: #292e47;
+font-size: 70px;
+font-weight:bolder;
+margin: 20px 0px 30px;
+}
+
+.heroText p{
+    color: #6b708d;
+font-size: 20px;
+margin-bottom: 40px;
 }
 
 .heroCard{
@@ -31,7 +43,7 @@
 /* tocar posició de cartes */
 .card1{
     top: 0;
-    left: 0;
+    left: -200px;
 }
 
 
@@ -44,19 +56,13 @@
     width: 100%;
 }
 
-
-.heroText p{
-   
-    
-}
-
-/* retocar boton  */
 .btnSeeOurWork {
-    background-color: #072AC8;
-    border-color: #072AC8;
-    color: #fff;
+    background-color: #f2f4fc;
+    color: #6b708d;
+    border: none;
     cursor: pointer;
     font-size: 100%;
+    font-weight: bold;
     height: 50px;
     width: 160px;
     line-height: 1.15;
