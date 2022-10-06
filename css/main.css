@@ -1,4 +1,4 @@
-main{
+.mainHero{
     display: flex;
     justify-content: center;
     margin-top: 200px;
@@ -66,25 +66,3 @@ main{
 }
 
 
-
-
-/* 
-<!--main/main.css-->
-<main>
-<div>
-   <div>
-    <img src="../project-assets/hero-section/card-1.png" alt="card-1">
-    <img src="../project-assets/hero-section/card-2.png" alt="card-2">
-    <img src="../project-assets/hero-section/hero-image.png" alt="Hero Image">
-   </div> 
-   <div>
-    <h1>Empower Your Business With Stunning Design!</h1>
-    <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
-     <button>See our work</button>
-     <a href="contactUs">
-        <button class="btnContactUs"> Get in touch</button>
-    </a>
-   
-</div>
-</div>   
-</main> */
