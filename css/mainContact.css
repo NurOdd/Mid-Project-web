@@ -1,0 +1,72 @@
+.mainContact{
+    margin-top: 200px; 
+    width: 80%;
+}
+
+.contactUs{
+ display: flex;
+ flex-direction: column; 
+    width: 80%;
+}
+
+/* .contactUsForm {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+} */
+
+.legendForm{
+    color:#6b708d;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.formContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .formName
+
+.formEmail
+
+.formPhone
+
+.formMsg
+
+.btnSubmit */
+
+
+#ctrName, #ctrEmail, #ctrPhone, #ctrMsg {
+background-color: #e4e6f0;
+border: none;
+height: 70px;
+padding: 8px 12px 8px 12px;
+margin-bottom: 10px;
+text-align: left;
+font-size: 18px;
+color: #6b708d;
+}
+
+#ctrEmail, #ctrPhone{
+    width: 45%;
+}
+
+#ctrName, #ctrMsg{
+    width: 100%;
+}
+
+.btnSubmit{
+    background-color: #072AC8;
+    border-color: #072AC8;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    height: 70px;
+    width: 100%;
+    line-height: 1.15;
+    padding: 8px 12px 8px 12px;
+    text-align: center;
+}

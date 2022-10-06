@@ -1,6 +1,8 @@
 
 @import "./navbar.css";
-@import "./main.css";
+@import "./mainHome.css";
+@import "./mainProject.css";
+@import "./mainContact.css";
 @import "./clientsImages.css";
 @import "./ProjectSeccion.css";
 @import "./testimonialSection.css";

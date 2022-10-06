@@ -8,53 +8,58 @@
     <title>ContactUs</title>
   </head>
   <body>
+
+    <!--navbar/navbar.css-->
+    
     <nav class="navbar">
-      <div>
-        <img
-          src="../project-assets/logos/circle.svg"
-          alt="  logoCircle"
-          id="logoCircle"
-        />
-      </div>
-      <div class="menuList">
-        <ul>
-          <a href="./index.html" id="linkBlue">Home</a>
-          <a href="./Project page.html">Project</a>
-          <a href="#">Services</a>
-        </ul>
-      </div>
-      <div>
-        <a href="./Contact page.html">
-          <button class="btnContactUs">Contact us</button></a
-        >
-      </div>
-    </nav>
+        <div>
+          <img
+            src="../project-assets/logos/circle.svg"
+            alt="  logoCircle"
+            id="logoCircle"
+          />
+        </div>
+        <div class="menuList">
+          <ul>
+            <a href="./index.html" id="linkBlue">Home</a>
+            <a href="./Project page.html">Project</a>
+            <a href="#">Services</a>
+          </ul>
+        </div>
+        <div>
+          <a href="./Contact page.html">
+            <button class="btnContactUs">Contact us</button>
+          </a>
+        </div>
+      </nav>
 
-    <main class="ContactUs">
+      <!--main/mainContactUs.css-->
+
+    <main class="mainContact" >
       <h1>Contact Us</h1>
-      <div>
-        <div class="contactUsForm">
-          <div>
-            <legend>Full Name*</legend>
-            <input type="text" placeholder="Enter your full name" />
+      <div class="contactUs">
+        <div class="contactForm">
+          <div class="formName">
+            <legend class="legendForm">Full Name*</legend>
+            <input id="ctrName" type="text" placeholder="Enter your full name" />
           </div>
-          <div>
-            <div>
-              <legend>Email</legend>
-              <input type="email" placeholder="Enter your email address" />
+          <div class="formContact">
+            <div class="formEmail">
+              <legend class="legendForm">Email</legend>
+              <input id="ctrEmail" type="email" placeholder="Enter your email address" />
             </div>
 
-            <div>
-              <legend>Phone</legend>
-              <input type="text" placeholder="Enter your phone number" />
+            <div class="formPhone">
+              <legend class="legendForm">Phone</legend>
+              <input id="ctrPhone" type="text" placeholder="Enter your phone number" />
             </div>
           </div>
-          <div>
-            <legend>Message</legend>
-            <input type="text" placeholder="Write your message here..." />
+          <div class="formMsg">
+            <legend class="legendForm">Message</legend>
+            <input id="ctrMsg" type="text" placeholder="Write your message here..." />
           </div>
 
-          <button>submit</button>
+          <button class="btnSubmit">Submit</button>
         </div>
       </div>
     </main>
