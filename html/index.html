@@ -1,200 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
     <title>HomePage</title>
-</head>
-<body>
-
-<!--navbar/navbar.css-->
-<nav class="navbar">
-    <div>  
-        <img src="../project-assets/logos/circle.svg" alt="  logoCircle" id="logoCircle">
-    </div>
-    <div class="menuList">
-            <ul >
-                <a href="./index.html" id="linkBlue">Home</a> 
-                <a href="./Project page.html">Project</a>
-                <a href="#">Services</a>
-            </ul>
-    </div>
-    <div>
-        <a href="./Contact page.html"> 
-            <button class="btnContactUs"> Contact us</button>
+  </head>
+  <body>
+    <!--navbar/navbar.css-->
+    <nav class="navbar">
+      <div>
+        <img
+          src="../project-assets/logos/circle.svg"
+          alt="  logoCircle"
+          id="logoCircle"
+        />
+      </div>
+      <div class="menuList">
+        <ul>
+          <a href="./index.html" id="linkBlue">Home</a>
+          <a href="./Project page.html">Project</a>
+          <a href="#">Services</a>
+        </ul>
+      </div>
+      <div>
+        <a href="./Contact page.html">
+          <button class="btnContactUs">Contact us</button>
         </a>
+      </div>
+    </nav>
+
+    <!--main/main.css-->
+    <main>
+      <div class="heroMain">
+        <div class="heroText">
+            <h1>Empower Your Business With Stunning Design!</h1>
+            <p>
+              Circle is a digital design and development studio. <br>We design and
+              develop astonishing websites and mobile apps.
+            </p>
+            <button class="btnSeeOurWork">See our work</button>
+            <a href="contactUs">
+              <button class="btnContactUs">Get in touch</button>
+            </a>
+          </div>
+        <div class="heroCard">
+          <img
+            class="card1"
+            src="../project-assets/hero-section/card-1.png"
+            alt="card-1"
+          />
+          <img
+            class="card2"
+            src="../project-assets/hero-section/card-2.png"
+            alt="card-2"
+          />
+          <img
+            class="heroImage"
+            src="../project-assets/hero-section/hero-image.png"
+            alt="Hero Image"
+          />
+        </div>
+     
+      </div>
+    </main>
+
+    <!--ClientsImages/ClientsImages.css-->
+    <div class="clientsImages">
+      <img
+        class="banner"
+        src="../project-assets/logos/airbnb-logo.svg"
+        alt="airbnb-logo"
+      />
+      <img
+        class="banner"
+        src="../project-assets/logos/google-logo.svg"
+        alt="google-logo"
+      />
+      <img
+        class="banner"
+        src="../project-assets/logos/microsoft-logo.svg"
+        alt="microsoft-logo"
+      />
+      <img
+        class="banner"
+        src="../project-assets/logos/fedex-logo.svg"
+        alt="fedex-logo"
+      />
+      <img
+        class="banner"
+        src="../project-assets/logos/amazon-logo.svg"
+        alt="amazon-logo"
+      />
     </div>
-    
-</nav>
 
-<!--main/main.css-->
-<main>
-<div>
-   <div>
-    <img src="../project-assets/hero-section/card-1.png" alt="card-1">
-    <img src="../project-assets/hero-section/card-2.png" alt="card-2">
-    <img src="../project-assets/hero-section/hero-image.png" alt="Hero Image">
-   </div> 
-   <div>
-    <h1>Empower Your Business With Stunning Design!</h1>
-    <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
-     <button>See our work</button>
-     <a href="contactUs">
-        <button class="btnContactUs"> Get in touch</button>
-    </a>
-   
-</div>
-</div>   
-</main>
+    <!--ProjectSeccion/ProjectSeccion.css-->
 
-<!--ClientsImages/ClientsImages.css-->
-<div class="clientsImages">
-    <img class= banner src="../project-assets/logos/airbnb-logo.svg" alt="airbnb-logo">
-    <img class= banner src="../project-assets/logos/google-logo.svg" alt="google-logo">
-    <img class= banner src="../project-assets/logos/microsoft-logo.svg" alt="microsoft-logo">
-    <img class= banner src="../project-assets/logos/fedex-logo.svg" alt="fedex-logo">
-    <img class= banner src="../project-assets/logos/amazon-logo.svg" alt="amazon-logo">
-</div>
-
-<!--ProjectSeccion/ProjectSeccion.css-->
-
-<div class="projectSeccion"> <!-- Se puede hacer como un formulario para automatizar con JS: image(if not image default gradient), title, projectTypology, tambien podriamos incluir una serie de "flechas" para ir pasando de proyecto a proyecto etc-->
-    <h2>Recent Projects</h2>
-    <div class="projectList">
+    <div class="projectSeccion">
+      <!-- Se puede hacer como un formulario para automatizar con JS: image(if not image default gradient), title, projectTypology, tambien podriamos incluir una serie de "flechas" para ir pasando de proyecto a proyecto etc-->
+      <h2>Recent Projects</h2>
+      <div class="projectList">
         <div class="cardProject">
-            <img src="../project-assets/projects-section/1.jpg" alt="imageDefault-1" class="projectImage">
-            <div class="cardText">
-                <p class="projectTitle">Simplify</p>
-                <p class="projectTypology">UI Design & App Development</p>
-                <a class="projectLink" href="">Learn more</a>
-            </div>
-   
+          <img
+            src="../project-assets/projects-section/1.jpg"
+            alt="imageDefault-1"
+            class="projectImage"
+          />
+          <div class="cardText">
+            <p class="projectTitle">Simplify</p>
+            <p class="projectTypology">UI Design & App Development</p>
+            <a class="projectLink" href="">Learn more</a>
+          </div>
         </div>
         <div class="cardProject">
-            <img src="../project-assets/projects-section/2.jpg" alt="imageDefault-2" class="projectImage">
-            <div class="cardText">
-                <p class="projectTitle">Dashcoin</p>
-                <p class="projectTypology">Web Development</p>
-                <a class="projectLink" href="">Learn more</a>
-            </div>
+          <img
+            src="../project-assets/projects-section/2.jpg"
+            alt="imageDefault-2"
+            class="projectImage"
+          />
+          <div class="cardText">
+            <p class="projectTitle">Dashcoin</p>
+            <p class="projectTypology">Web Development</p>
+            <a class="projectLink" href="">Learn more</a>
+          </div>
         </div>
         <div class="cardProject">
-            <img src="../project-assets/projects-section/3.jpg" alt="imageDefault-3" class="projectImage">
-            <div class="cardText">
-                <p class="projectTitle">Vectorify</p>
-                <p class="projectTypology">User Experience Design</p>
-                <a class="projectLink" href="">Learn more</a>
-            </div>
+          <img
+            src="../project-assets/projects-section/3.jpg"
+            alt="imageDefault-3"
+            class="projectImage"
+          />
+          <div class="cardText">
+            <p class="projectTitle">Vectorify</p>
+            <p class="projectTypology">User Experience Design</p>
+            <a class="projectLink" href="">Learn more</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!--testimonialSection/testimonialSection-->
+    <!--testimonialSection/testimonialSection-->
 
-<div class="testimonialSection">
- 
-    <div class="clientTestimony"> <!--Se puede hacer como un formulario para automatizar con JS: testimony, clientPhoto, clientName, ClientCompany, tambien podriamos incluir una serie de "flechas" para ir pasando de Testimonio1 a testimonio2 etc-->
+    <div class="testimonialSection">
+      <div class="clientTestimony">
+        <!--Se puede hacer como un formulario para automatizar con JS: testimony, clientPhoto, clientName, ClientCompany, tambien podriamos incluir una serie de "flechas" para ir pasando de Testimonio1 a testimonio2 etc-->
         <h3>Hear What Our Clients Have to Say</h3>
-        <p class="testimony">“Circle helped us through every stage of our startup.<br> We really enjoyed working with you.”</p>
+        <p class="testimony">
+          “Circle helped us through every stage of our startup.<br />
+          We really enjoyed working with you.”
+        </p>
         <div class="client">
-            <div id="photoFrame">
-                <img src="../project-assets/testimonial-section/profile.png" alt="clientPhoto" id="clientPhoto">
-            </div>
-            <div class="clientInformation">
-                <p class="clientName">Kristin Watson</p>
-                <p class="clientCompany">Booking.com</p>
-            </div>
+          <div id="photoFrame">
+            <img
+              src="../project-assets/testimonial-section/profile.png"
+              alt="clientPhoto"
+              id="clientPhoto"
+            />
+          </div>
+          <div class="clientInformation">
+            <p class="clientName">Kristin Watson</p>
+            <p class="clientCompany">Booking.com</p>
+          </div>
         </div>
-     <div class='memojis'>
-        <img id=memoji1 src="../project-assets/testimonial-section/memoji-1.png" alt="memoji-1">
-        <img id=memoji2 src="../project-assets/testimonial-section/memoji-2.png" alt="memoji-2">
-        <img id=memoji3 src="../project-assets/testimonial-section/memoji-3.png" alt="memoji-3">
-        <img id=memoji4 src="../project-assets/testimonial-section/memoji-4.png" alt="memoji-4">
-     </div>
+        <div class="memojis">
+          <img
+            id="memoji1"
+            src="../project-assets/testimonial-section/memoji-1.png"
+            alt="memoji-1"
+          />
+          <img
+            id="memoji2"
+            src="../project-assets/testimonial-section/memoji-2.png"
+            alt="memoji-2"
+          />
+          <img
+            id="memoji3"
+            src="../project-assets/testimonial-section/memoji-3.png"
+            alt="memoji-3"
+          />
+          <img
+            id="memoji4"
+            src="../project-assets/testimonial-section/memoji-4.png"
+            alt="memoji-4"
+          />
+        </div>
+      </div>
     </div>
-</div>
 
-<!--ServiceSection/ serviceSection.css-->
+    <!--ServiceSection/ serviceSection.css-->
 
-
-<div class="serviceSection">
-    <h2>Our Services</h2>
-    <div class="serviceList">
+    <div class="serviceSection">
+      <h2>Our Services</h2>
+      <div class="serviceList">
         <div class="serviceCard">
-            <div class="iconContainer">
-                <img class="imgIcon" src="../project-assets/services-section/icons/1.svg" alt="penIcon">
-            </div>
-            <div class="serviceCardText">
-                <h4>User Interface Design</h4>
-                <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
-                <a class="serviceLink" href="#">Learn More</a>
-            </div>
+          <div class="iconContainer">
+            <img
+              class="imgIcon"
+              src="../project-assets/services-section/icons/1.svg"
+              alt="penIcon"
+            />
+          </div>
+          <div class="serviceCardText">
+            <h4>User Interface Design</h4>
+            <p>
+              Circle provides you with a stunning user interface design that is
+              accessible to everyone.
+            </p>
+            <a class="serviceLink" href="#">Learn More</a>
+          </div>
         </div>
         <div class="serviceCard">
-            <div class="iconContainer">
-                <img class="imgIcon" src="../project-assets/services-section/icons/2.svg" alt="cursorIcon">
-            </div>
-            <div class="serviceCardText">
-                <h4>User Experience Design</h4>
-                <p>Circle always focuses on delivering the best user experience to your customers.</p>
-                <a class="serviceLink" href="#">Learn More</a>
-            </div>
+          <div class="iconContainer">
+            <img
+              class="imgIcon"
+              src="../project-assets/services-section/icons/2.svg"
+              alt="cursorIcon"
+            />
+          </div>
+          <div class="serviceCardText">
+            <h4>User Experience Design</h4>
+            <p>
+              Circle always focuses on delivering the best user experience to
+              your customers.
+            </p>
+            <a class="serviceLink" href="#">Learn More</a>
+          </div>
         </div>
         <div class="serviceCard">
-            <div class="iconContainer">
-                <img class="imgIcon" src="../project-assets/services-section/icons/3.svg" alt="devIcon">
-            </div>
-            <div class="serviceCardText">
-                <h4>Application Development</h4>
-                <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
-                <a class="serviceLink" href="#">Learn More</a>
-            </div>
+          <div class="iconContainer">
+            <img
+              class="imgIcon"
+              src="../project-assets/services-section/icons/3.svg"
+              alt="devIcon"
+            />
+          </div>
+          <div class="serviceCardText">
+            <h4>Application Development</h4>
+            <p>
+              We develop high-quality mobile and web applications using the
+              latest technology stack.
+            </p>
+            <a class="serviceLink" href="#">Learn More</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!--CTASection / CTASection.css-->
-<!-- parece que cuando pones una dirección te sale un mensaje (revision de si faltan elementos para q sea mail, "gracias se ha recibido tu submit", "oh, algo ha ido mal!")-->
-<div class="CTASection">
-    <div>
+    <!--CTASection / CTASection.css-->
+    <!-- parece que cuando pones una dirección te sale un mensaje (revision de si faltan elementos para q sea mail, "gracias se ha recibido tu submit", "oh, algo ha ido mal!")-->
+    <div class="CTASection">
+      <div>
         <h1>Do you have any questions?</h1>
         <p>Let us help you!</p>
-        <div class = "ctaForm">
-            <div class="emailForm">
-                <form action="submitEmail">
-                    <img src="../project-assets/newsletter/icon/mail.svg" alt="mailIcon" id="mailIcon">
-                    <input type="email" placeholder="Enter your email" id='inputEmail'>
-                </form>
-            </div>
-            <div>
-                <button class="btnSubscribe">Subscribe</button>
-            </div>
+        <div class="ctaForm">
+          <div class="emailForm">
+            <form action="submitEmail">
+              <img
+                src="../project-assets/newsletter/icon/mail.svg"
+                alt="mailIcon"
+                id="mailIcon"
+              />
+              <input
+                type="email"
+                placeholder="Enter your email"
+                id="inputEmail"
+              />
+            </form>
+          </div>
+          <div>
+            <button class="btnSubscribe">Subscribe</button>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
+    <!--Footer / footer.css-->
 
-<!--Footer / footer.css-->
-
-<footer class="footer">
-    <div>
+    <footer class="footer">
+      <div>
         <div class="footerDirection">
-            <img src="../project-assets/logos/circle.svg" alt="logoCircle" id="logoCircle">
-            <p>2972 Westheimer Rd. Santa Ana, <br>Illinois 85486 </p>
-            
+          <img
+            src="../project-assets/logos/circle.svg"
+            alt="logoCircle"
+            id="logoCircle"
+          />
+          <p>2972 Westheimer Rd. Santa Ana, <br />Illinois 85486</p>
         </div>
         <ul class="footerLinks">
-                <li>Team</li>
-                <li>Services</li>
-                <li>About Us</li>
-                <li>Press</li>
-                <li>Projects</li>
-                <li>Privacy Policy</li>
+          <li>Team</li>
+          <li>Services</li>
+          <li>About Us</li>
+          <li>Press</li>
+          <li>Projects</li>
+          <li>Privacy Policy</li>
         </ul>
-    </div>
-</footer>
-
-</body>
+      </div>
+    </footer>
+  </body>
 </html>

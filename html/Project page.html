@@ -41,65 +41,81 @@
 </main>
 
 
-<div id="ProjectSeccion"><!-- Se puede hacer como un formulario para automatizar con JS: image(if not image default gradient), title, projectTypology, tambien podriamos incluir una serie de "flechas" para ir pasando de proyecto a proyecto etc-->
-    <h3>Recent Projects</h3>
-    <div>
-        <img src="../project-assets/projects-section/4.jpg" alt="imageDefault-4">
-        <p class="projectTitle">Orbit</p>
-        <p class="projectTypology">UI Design</p>
-        <a href="#">Learn more</a>
+<!--ProjectSeccion/ProjectSeccion.css-->
+
+<div class="projectSeccion"> <!-- Se puede hacer como un formulario para automatizar con JS: image(if not image default gradient), title, projectTypology, tambien podriamos incluir una serie de "flechas" para ir pasando de proyecto a proyecto etc-->
+    <h2>Other Projects</h2>
+    <div class="projectList">
+        <div class="cardProject">
+            <img src="../project-assets/projects-section/4.jpg" alt="imageDefault-4" class="projectImage">
+            <div class="cardText">
+                <p class="projectTitle">Orbit</p>
+                <p class="projectTypology">UI Design</p>
+                <a class="projectLink" href="">Learn more</a>
+            </div>
    
-    </div>
-    <div>
-        <img src="../project-assets/projects-section/5.jpg" alt="imageDefault-5">
-        <p class="projectTitle">Purify</p>
-        <p class="projectTypology">UI/UX Design</p>
-        <a href="#">Learn more</a>
-    </div>
-        <div>
-        <img src="../project-assets/projects-section/6.jpg" alt="imageDefault-6">
-        <p class="projectTitle">CryptoPie</p>
-        <p class="projectTypology">App Development</p>
-        <a href="#">Learn more</a>
+        </div>
+        <div class="cardProject">
+            <img src="../project-assets/projects-section/5.jpg" alt="imageDefault-5" class="projectImage">
+            <div class="cardText">
+                <p class="projectTitle">Purify</p>
+                <p class="projectTypology">UI/UX Design</p>
+                <a class="projectLink" href="">Learn more</a>
+            </div>
+        </div>
+        <div class="cardProject">
+            <img src="../project-assets/projects-section/6.jpg" alt="imageDefault-6" class="projectImage">
+            <div class="cardText">
+                <p class="projectTitle">CryptoPie</p>
+                <p class="projectTypology">App Development</p>
+                <a class="projectLink" href="">Learn more</a>
+            </div>
+        </div>
     </div>
 </div>
 
 
-<div>
+
+<!--CTASection / CTASection.css-->
+<!-- parece que cuando pones una dirección te sale un mensaje (revision de si faltan elementos para q sea mail, "gracias se ha recibido tu submit", "oh, algo ha ido mal!")-->
+<div class="CTASection">
     <div>
-        <form action="submitEmail">
-            <img src="../project-assets/newsletter/icon/mail.svg" alt="mailIcon">
-            <input type="email" placeholder="Enter your email">
-    </form>
+        <h1>Do you have any questions?</h1>
+        <p>Let us help you!</p>
+        <div class = "ctaForm">
+            <div class="emailForm">
+                <form action="submitEmail">
+                    <img src="../project-assets/newsletter/icon/mail.svg" alt="mailIcon" id="mailIcon">
+                    <input type="email" placeholder="Enter your email" id='inputEmail'>
+                </form>
+            </div>
+            <div>
+                <button class="btnSubscribe">Subscribe</button>
+            </div>
+        </div>
     </div>
-    <button>Subscribe</button>
-</div>
-</div>
 </div>
 
-<footer>
-<div>
-<div>
-    <img src="../project-assets/logos/circle.svg" alt="logoCircle">
-    <p>2972 Westheimer Rd. Santa Ana,  </p>
-    <p>Illinois 85486</p>
-</div>
-<div>
+<!--Footer / footer.css-->
+
+<footer class="footer">
     <div>
-        <ul>Team</ul>
-        <ul>Press</ul>
+        <div class="footerDirection">
+            <img src="../project-assets/logos/circle.svg" alt="logoCircle" id="logoCircle">
+            <p>2972 Westheimer Rd. Santa Ana, <br>Illinois 85486 </p>
+            
+        </div>
+        <ul class="footerLinks">
+                <li>Team</li>
+                <li>Services</li>
+                <li>About Us</li>
+                <li>Press</li>
+                <li>Projects</li>
+                <li>Privacy Policy</li>
+        </ul>
     </div>
-    <div>
-        <ul>Services</ul>
-        <ul>Projects</ul>
-    </div>
-    <div>
-        <ul>About Us</ul>
-        <ul>Privacy Policy</ul>
-    </div>
-</div>
-</div>
 </footer>
+
 
 
 </body>
