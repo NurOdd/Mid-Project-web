@@ -1,0 +1,46 @@
+.mainProject{
+    width: 80%;
+    display: flex;
+
+
+}
+
+
+.projectTitle{
+    color: #292e47;
+    font-size: 60px;
+}
+
+.projectSubtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projectTypology{
+color: #6B708D;
+font-size: 24px;
+}
+
+.completionDate{
+    color: #292e47;
+    font-size: 20px;
+}
+
+.mainProjectImg{
+   width: 100%;
+    height: 444px;
+    object-fit: cover;
+margin-top: 80px;
+}
+
+.projectDescription{
+    color: #292e47;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.projectDescription p{
+    margin-bottom: 10px;
+}
