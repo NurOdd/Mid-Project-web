@@ -1,12 +1,11 @@
 .mainContact{
     margin-top: 200px; 
-    width: 80%;
+   padding: 0px 200px 0px 200px;
 }
 
 .contactUs{
  display: flex;
  flex-direction: column; 
-    width: 80%;
 }
 
 /* .contactUsForm {
@@ -24,18 +23,27 @@
 .formContact {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+
 }
 
-/* .formName
 
-.formEmail
+.formEmail{
+    flex: 1;
 
-.formPhone
+}
 
-.formMsg
+.formPhone{
+    flex: 1;
+    width: 100%;
 
-.btnSubmit */
+}
+
+/* .formMsg
+
+.btnSubmit 
+
+.formName */
 
 
 #ctrName, #ctrEmail, #ctrPhone, #ctrMsg {
@@ -43,19 +51,28 @@ background-color: #e4e6f0;
 border: none;
 height: 70px;
 padding: 8px 12px 8px 12px;
-margin-bottom: 10px;
+margin: 10px;
+/* margin-bottom: 10px; */
 text-align: left;
 font-size: 18px;
 color: #6b708d;
+width: calc(100% - 48px);
 }
 
-#ctrEmail, #ctrPhone{
-    width: 45%;
+#ctrMsg{
+    height: auto;
+}
+
+#ctrMsg::placeholder{
+    font-family: 'Roboto', sans-serif;
+}
+/* #ctrEmail, #ctrPhone{
+
 }
 
 #ctrName, #ctrMsg{
     width: 100%;
-}
+} */
 
 .btnSubmit{
     background-color: #072AC8;
@@ -65,8 +82,10 @@ color: #6b708d;
     font-size: 18px;
     font-weight: 600;
     height: 70px;
-    width: 100%;
+    width: calc(100% - 12px);
     line-height: 1.15;
     padding: 8px 12px 8px 12px;
     text-align: center;
+ 
+
 }
