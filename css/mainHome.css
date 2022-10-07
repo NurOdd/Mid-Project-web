@@ -71,4 +71,37 @@ margin-bottom: 40px;
     text-align: center;
 }
 
+ /*responsive tablet*/
+
+ @media (max-width:768px){
+.mainHero{
+    margin-top: 10%;
+    padding-left: 5%;
+   justify-content: none;
+   flex-direction: column;
+}
+.heroMain{
+    display: flex;
+ align-items:column ;  
+  width: 50%;
+
+}
+/* .heroText */
+
+
+
+.card1, .card2{
+    display: none;
+}
+
+.mainHeroBtn{
+    display: flex;
+   flex-direction: row;}
+
+/*responsive mobile*/
+
+@media (max-width:320px){
+    /* metes las clases que quieras modificar o ID, esto solo tendra efecto cuando el width sea menor al marcado */
+ }
+
 

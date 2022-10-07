@@ -5,7 +5,7 @@ const contactForm=document.querySelector(".contactForm")
 
 contactForm.onsubmit=function(e){
     e.preventDefault();
-console.log("hola")
+
 
 const username = document.querySelector("#ctrName").value;
 const email = document.querySelector("#ctrEmail").value;
