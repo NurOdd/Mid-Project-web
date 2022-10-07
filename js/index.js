@@ -9,15 +9,12 @@ return data;
 const textInsert = async() =>{
     const getData = await fetchFunction();
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 6; i++) {
         const post = getData[i];
 
     document.querySelector(`#titleProject${i+1}`).innerHTML=post.title
 
     document.querySelector(`#typologyProject${i+1}`).innerHTML=post.body
-
-    
-
 
     }
 
